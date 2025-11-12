@@ -1,0 +1,3731 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Mistral OCR</description>
+        <flow_priority/>
+        <ih_action>true</ih_action>
+        <internal_name>mistral_ocr</internal_name>
+        <label_cache>[{"name":"{{action.base64}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"","base_type":"file_attachment","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"File Attachment","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"file_attachment","uiUniqueId":"0fd5b171-45c2-4d9d-a26d-2214da541675"}},{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ba8d7654-ebec-4adc-abef-1705c2f1f844"}},{"name":"{{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].credential_value}}","label":"step➛Get Connection➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].connection_url}}","label":"step➛Get Connection➛Connection URL","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"define_connection_inline"}},{"name":"{{step[9fbfb053-578e-437a-b8b7-e1aa3be2b6ca].response_body}}","label":"step➛Upload File➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[28d5c5a7-b73d-4a70-8323-db732f6f5875].root.id}}","label":"Get File Idstep➛➛root➛id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[3d2ab1ea-7cf9-44bf-bcc5-8301d30bb3d9].response_body}}","label":"step➛Run OCR➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[cab24553-9483-423f-86f9-e03de8bc6f17].markdown}}","label":"step➛Get OCR Output➛markdown","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"456a3693-ff06-44f2-bd5e-ceb48f38d3fc"}}]</label_cache>
+        <master_snapshot>84504e6d3b3f6250cb98111864e45ab0</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Mistral OCR</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-04 10:32:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>525ad5113bfbae10cb98111864e45a97</sys_id>
+        <sys_mod_count>104</sys_mod_count>
+        <sys_name>Mistral OCR</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Mistral AI" source="x_vuram_mistral_ai">d81a91513bfbae10cb98111864e45a5b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_525ad5113bfbae10cb98111864e45a97</sys_update_name>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-11-12 10:53:24</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=525ad5113bfbae10cb98111864e45a97"/>
+    <sys_variable_value action="delete_multiple" query="document_key=525ad5113bfbae10cb98111864e45a97"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>525ad5113bfbae10cb98111864e45a97</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>434171ad3b7b6250cb98111864e45a68</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-11-12 10:53:20</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"1cf572eb-c590-4a34-a138-40c1e56409e2\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <variable display_value="Action Status">724171ad3b7b6250cb98111864e45a42</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>525ad5113bfbae10cb98111864e45a97</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>8f4171ad3b7b6250cb98111864e45a67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 06:51:19</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">c74171ad3b7b6250cb98111864e45a5c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>525ad5113bfbae10cb98111864e45a97</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-10 12:46:14</sys_created_on>
+        <sys_id>e672b4db3b37e290cb98111864e45ae5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:51:57</sys_updated_on>
+        <value/>
+        <variable display_value="markdown">2272b4db3b37e290cb98111864e45acd</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=525ad5113bfbae10cb98111864e45a97"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>markdown</field>
+        <id>525ad5113bfbae10cb98111864e45a97</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-10 12:46:14</sys_created_on>
+        <sys_id>ee72b4db3b37e290cb98111864e45ae4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:51:57</sys_updated_on>
+        <table>var__m_sys_hub_action_output_525ad5113bfbae10cb98111864e45a97</table>
+        <value>{{step[cab24553-9483-423f-86f9-e03de8bc6f17].markdown}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>525ad5113bfbae10cb98111864e45a97</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>0f4171ad3b7b6250cb98111864e45a67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 06:51:19</sys_updated_on>
+        <table>var__m_sys_hub_action_output_525ad5113bfbae10cb98111864e45a97</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>525ad5113bfbae10cb98111864e45a97</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>4b4171ad3b7b6250cb98111864e45a67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 06:51:19</sys_updated_on>
+        <table>var__m_sys_hub_action_output_525ad5113bfbae10cb98111864e45a97</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=525ad5113bfbae10cb98111864e45a97^sys_idNOT IN2f947b3e3bbfee50f13f5fea26e45aab,664131ad3b7b6250cb98111864e45aef,7ace984f3b772290f13f5fea26e45a47,bf83789f3b37e290cb98111864e45a6f,f64131ad3b7b6250cb98111864e45afc"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Mistral OCR">525ad5113bfbae10cb98111864e45a97</action>
+        <cid>9fbfb053-578e-437a-b8b7-e1aa3be2b6ca</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Upload File</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 13:37:29</sys_created_on>
+        <sys_id>2f947b3e3bbfee50f13f5fea26e45aab</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:23:59</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2f947b3e3bbfee50f13f5fea26e45aab"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f947b3e3bbfee50f13f5fea26e45aab</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 13:37:30</sys_created_on>
+        <sys_id>33947b3e3bbfee50f13f5fea26e45aec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:37:30</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f947b3e3bbfee50f13f5fea26e45aab</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 13:37:30</sys_created_on>
+        <sys_id>37947b3e3bbfee50f13f5fea26e45aeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:37:30</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f947b3e3bbfee50f13f5fea26e45aab</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 13:37:30</sys_created_on>
+        <sys_id>3f947b3e3bbfee50f13f5fea26e45aec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:37:30</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f947b3e3bbfee50f13f5fea26e45aab</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 15:56:44</sys_created_on>
+        <sys_id>577418033b372290f13f5fea26e45a53</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:02:55</sys_updated_on>
+        <value/>
+        <variable display_value="Multipart Body">b564608787d01300dd637d5e27cb0b7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f947b3e3bbfee50f13f5fea26e45aab</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 15:57:58</sys_created_on>
+        <sys_id>6dc454433b372290f13f5fea26e45a2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 15:57:58</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f947b3e3bbfee50f13f5fea26e45aab</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 13:37:30</sys_created_on>
+        <sys_id>73947b3e3bbfee50f13f5fea26e45aeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:37:30</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f947b3e3bbfee50f13f5fea26e45aab</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 13:37:30</sys_created_on>
+        <sys_id>7b947b3e3bbfee50f13f5fea26e45aea</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 15:56:44</sys_updated_on>
+        <value>multi-part</value>
+        <variable display_value="Request Type">bc79234a87d01300dd637d5e27cb0b24</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f947b3e3bbfee50f13f5fea26e45aab</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 13:37:30</sys_created_on>
+        <sys_id>7b947b3e3bbfee50f13f5fea26e45aec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:37:30</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f947b3e3bbfee50f13f5fea26e45aab</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 13:37:30</sys_created_on>
+        <sys_id>7f947b3e3bbfee50f13f5fea26e45aeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:37:30</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f947b3e3bbfee50f13f5fea26e45aab</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 13:37:30</sys_created_on>
+        <sys_id>b7947b3e3bbfee50f13f5fea26e45aec</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:23:59</sys_updated_on>
+        <value/>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f947b3e3bbfee50f13f5fea26e45aab</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 13:37:30</sys_created_on>
+        <sys_id>bb947b3e3bbfee50f13f5fea26e45aeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:37:30</sys_updated_on>
+        <value>purpose=ocr&amp;file=1b4d096a3bfbea50cb98111864e45a35</value>
+        <variable display_value="Form URL Encoded">3684ec4787d01300dd637d5e27cb0bcb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f947b3e3bbfee50f13f5fea26e45aab</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 13:37:30</sys_created_on>
+        <sys_id>f3947b3e3bbfee50f13f5fea26e45aec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:37:30</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f947b3e3bbfee50f13f5fea26e45aab</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 13:37:30</sys_created_on>
+        <sys_id>f7947b3e3bbfee50f13f5fea26e45aeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:37:30</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2f947b3e3bbfee50f13f5fea26e45aab"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>2f947b3e3bbfee50f13f5fea26e45aab</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 13:37:30</sys_created_on>
+        <sys_id>37947b3e3bbfee50f13f5fea26e45aea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:37:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>2f947b3e3bbfee50f13f5fea26e45aab</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 13:37:30</sys_created_on>
+        <sys_id>73947b3e3bbfee50f13f5fea26e45aea</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:23:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].connection_url}}/v1/files</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>2f947b3e3bbfee50f13f5fea26e45aab</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 13:37:30</sys_created_on>
+        <sys_id>bf947b3e3bbfee50f13f5fea26e45ae9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:37:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>2f947b3e3bbfee50f13f5fea26e45aab</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 13:37:30</sys_created_on>
+        <sys_id>3b947b3e3bbfee50f13f5fea26e45ae9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:37:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>2f947b3e3bbfee50f13f5fea26e45aab</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 13:37:30</sys_created_on>
+        <sys_id>f7947b3e3bbfee50f13f5fea26e45aea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:37:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>form_URL_encoded_map</field>
+        <id>2f947b3e3bbfee50f13f5fea26e45aab</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 13:37:30</sys_created_on>
+        <sys_id>77947b3e3bbfee50f13f5fea26e45ae9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:37:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>2f947b3e3bbfee50f13f5fea26e45aab</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 13:37:30</sys_created_on>
+        <sys_id>fb947b3e3bbfee50f13f5fea26e45ae9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:37:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"Authorization","value":"Bearer {{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].credential_value}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>2f947b3e3bbfee50f13f5fea26e45aab</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 13:37:29</sys_created_on>
+        <sys_id>3f947b3e3bbfee50f13f5fea26e45ae8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:37:29</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>2f947b3e3bbfee50f13f5fea26e45aab</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 13:37:29</sys_created_on>
+        <sys_id>ff947b3e3bbfee50f13f5fea26e45ae8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:37:29</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>2f947b3e3bbfee50f13f5fea26e45aab</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 13:37:29</sys_created_on>
+        <sys_id>b3947b3e3bbfee50f13f5fea26e45ae9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:37:29</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>multipart_sources_string</field>
+        <id>2f947b3e3bbfee50f13f5fea26e45aab</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 15:56:44</sys_created_on>
+        <sys_id>977418033b372290f13f5fea26e45a39</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:02:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>[{"name":"purpose","type":"application/json","order":0,"value":"ocr","itemType":"multi-part-data","part_type":"text","content_type":"application/json","set_content_type":"from_attachment","file_name":"","set_file_name":"from_attachment","showType":true,"label":"purpose"},{"name":"file","type":"application/json","order":1,"value":"{{action.attachment}}","itemType":"multi-part-data","part_type":"file","content_type":"multipart/form-data","set_content_type":"from_attachment","file_name":"","set_file_name":"from_attachment","showType":true,"label":"file"}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>2f947b3e3bbfee50f13f5fea26e45aab</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 15:57:58</sys_created_on>
+        <sys_id>e9c454433b372290f13f5fea26e45a2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 15:57:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>request_type</field>
+        <id>2f947b3e3bbfee50f13f5fea26e45aab</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 13:37:29</sys_created_on>
+        <sys_id>77947b3e3bbfee50f13f5fea26e45ae8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:37:29</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=2f947b3e3bbfee50f13f5fea26e45aab"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=2f947b3e3bbfee50f13f5fea26e45aab"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=2f947b3e3bbfee50f13f5fea26e45aab"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2f947b3e3bbfee50f13f5fea26e45aab^sys_idNOT IN3f947b3e3bbfee50f13f5fea26e45acc"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>form_URL_encoded_map</input_name>
+        <instance>2f947b3e3bbfee50f13f5fea26e45aab</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"form_URL_encoded_map":{"scriptActive":false}}</script>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 13:37:29</sys_created_on>
+        <sys_id>3f947b3e3bbfee50f13f5fea26e45acc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:37:29</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Mistral OCR">525ad5113bfbae10cb98111864e45a97</action>
+        <cid>60085ac9-9e69-4037-8b5b-c28c9746b5fd</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Get Connection</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Get Connection Info">95eeb235e7011010493520c343f6a983</step_type>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:18</sys_created_on>
+        <sys_id>664131ad3b7b6250cb98111864e45aef</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-11-12 10:53:18</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=664131ad3b7b6250cb98111864e45aef"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>664131ad3b7b6250cb98111864e45aef</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:18</sys_created_on>
+        <sys_id>364131ad3b7b6250cb98111864e45afa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 06:51:18</sys_updated_on>
+        <value>5fc50ef73b3c2290f13f5fea26e45ad7</value>
+        <variable display_value="Credential Alias">6bd65a8be7011010493520c343f6a909</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>664131ad3b7b6250cb98111864e45aef</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:18</sys_created_on>
+        <sys_id>7e4131ad3b7b6250cb98111864e45afa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-11-12 10:53:18</sys_updated_on>
+        <value>fc10b0ab3b05b254f13f5fea26e45aee</value>
+        <variable display_value="Connection Alias">7f64d24be7011010493520c343f6a999</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_95eeb235e7011010493520c343f6a983^id=664131ad3b7b6250cb98111864e45aef"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=664131ad3b7b6250cb98111864e45aef"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=664131ad3b7b6250cb98111864e45aef"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=664131ad3b7b6250cb98111864e45aef"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=664131ad3b7b6250cb98111864e45aef"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Mistral OCR">525ad5113bfbae10cb98111864e45a97</action>
+        <cid>28d5c5a7-b73d-4a70-8323-db732f6f5875</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Get File Id</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:41:44</sys_created_on>
+        <sys_id>7ace984f3b772290f13f5fea26e45a47</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:45:07</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7ace984f3b772290f13f5fea26e45a47"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7ace984f3b772290f13f5fea26e45a47</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:41:45</sys_created_on>
+        <sys_id>3ace984f3b772290f13f5fea26e45a57</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:45:07</sys_updated_on>
+        <value>raw</value>
+        <variable display_value="Payload view">95d4280787523300f917e55936cb0bfe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7ace984f3b772290f13f5fea26e45a47</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:41:45</sys_created_on>
+        <sys_id>76ce984f3b772290f13f5fea26e45a57</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:45:07</sys_updated_on>
+        <value/>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7ace984f3b772290f13f5fea26e45a47</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:41:45</sys_created_on>
+        <sys_id>b2ce984f3b772290f13f5fea26e45a57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:41:45</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"id","children":[],"type":"string","jpath":"$.id","previewValue":"618b9ee3-23d0-4137-8495-1e956fdde865"}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_7ace984f3b772290f13f5fea26e45a47^id=7ace984f3b772290f13f5fea26e45a47"/>
+    <sys_element_mapping action="delete_multiple" query="id=7ace984f3b772290f13f5fea26e45a47"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>payload_view</field>
+        <id>7ace984f3b772290f13f5fea26e45a47</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:41:45</sys_created_on>
+        <sys_id>7ece984f3b772290f13f5fea26e45a56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:41:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>7ace984f3b772290f13f5fea26e45a47</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:41:45</sys_created_on>
+        <sys_id>32ce984f3b772290f13f5fea26e45a57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:41:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>7ace984f3b772290f13f5fea26e45a47</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:41:45</sys_created_on>
+        <sys_id>f6ce984f3b772290f13f5fea26e45a56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:41:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[9fbfb053-578e-437a-b8b7-e1aa3be2b6ca].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>7ace984f3b772290f13f5fea26e45a47</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:41:45</sys_created_on>
+        <sys_id>bace984f3b772290f13f5fea26e45a56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:41:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=7ace984f3b772290f13f5fea26e45a47"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=7ace984f3b772290f13f5fea26e45a47"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=7ace984f3b772290f13f5fea26e45a47^sys_idNOT IN7ace984f3b772290f13f5fea26e45a4c"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD3ace984f5477229067b7bf76fdca5a4b</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>d81a91513bfbae10cb98111864e45a5b</scope_name>
+        <serialized_content>{"FlowDesigner:FD3ace984f5477229067b7bf76fdca5a4b":{"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"f953caf4-93c5-408f-838d-686d638cfd62\"}"}},"FlowDesigner:FD3ace984f5477229067b7bf76fdca5a4b.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"root\",\"mandatory\":\"false\",\"uiUniqueId\":\"2a5c351f-a9d6-401e-bde9-e77e2833af3a\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD3ace984f5477229067b7bf76fdca5a4b\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:41:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>face984f3b772290f13f5fea26e45a4b</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-11-12 10:53:19</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD3ace984f5477229067b7bf76fdca5a4b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=2a5c351f-a9d6-401e-bde9-e77e2833af3a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get File Id">7ace984f3b772290f13f5fea26e45a47</model>
+        <model_id>7ace984f3b772290f13f5fea26e45a47</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_7ace984f3b772290f13f5fea26e45a47</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:41:45</sys_created_on>
+        <sys_id>7ace984f3b772290f13f5fea26e45a4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:41:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7ace984f3b772290f13f5fea26e45a47"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_7ace984f3b772290f13f5fea26e45a47</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:41:45</sys_created_on>
+        <sys_id>7ace984f3b772290f13f5fea26e45a50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mistral AI" source="x_vuram_mistral_ai">d81a91513bfbae10cb98111864e45a5b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:41:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Mistral OCR">525ad5113bfbae10cb98111864e45a97</action>
+        <cid>cab24553-9483-423f-86f9-e03de8bc6f17</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Get OCR Output</label>
+        <order>5</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-10 12:50:57</sys_created_on>
+        <sys_id>bf83789f3b37e290cb98111864e45a6f</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_updated_by>harini.ks</sys_updated_by>
+        <sys_updated_on>2025-09-15 09:50:13</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bf83789f3b37e290cb98111864e45a6f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>bf83789f3b37e290cb98111864e45a6f</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-10 12:50:58</sys_created_on>
+        <sys_id>7383789f3b37e290cb98111864e45ab7</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_updated_by>harini.ks</sys_updated_by>
+        <sys_updated_on>2025-09-15 09:50:13</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+var response= JSON.parse(inputs.responsebody);&#13;
+// var markdown = body.pages[0].markdown;&#13;
+&#13;
+outputs.markdown=response;&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>bf83789f3b37e290cb98111864e45a6f</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-10 12:50:58</sys_created_on>
+        <sys_id>bf83789f3b37e290cb98111864e45ab6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:50:58</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bf83789f3b37e290cb98111864e45a6f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>bf83789f3b37e290cb98111864e45a6f</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-10 12:50:58</sys_created_on>
+        <sys_id>7b83789f3b37e290cb98111864e45ab6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:50:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>responsebody</field>
+        <id>bf83789f3b37e290cb98111864e45a6f</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-10 12:50:58</sys_created_on>
+        <sys_id>7f83789f3b37e290cb98111864e45ab7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:50:58</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_bf83789f3b37e290cb98111864e45a6f</table>
+        <value>{{step[3d2ab1ea-7cf9-44bf-bcc5-8301d30bb3d9].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>bf83789f3b37e290cb98111864e45a6f</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-10 12:50:58</sys_created_on>
+        <sys_id>3f83789f3b37e290cb98111864e45ab6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:50:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_bf83789f3b37e290cb98111864e45a6f^id=bf83789f3b37e290cb98111864e45a6f"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=bf83789f3b37e290cb98111864e45a6f"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=bf83789f3b37e290cb98111864e45a6f"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=bf83789f3b37e290cb98111864e45a6f^sys_idNOT IN3b83789f3b37e290cb98111864e45a75"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>responsebody</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get OCR Output">bf83789f3b37e290cb98111864e45a6f</model>
+        <model_id>bf83789f3b37e290cb98111864e45a6f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_bf83789f3b37e290cb98111864e45a6f</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-10 12:50:57</sys_created_on>
+        <sys_id>3b83789f3b37e290cb98111864e45a75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:50:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=bf83789f3b37e290cb98111864e45a6f^sys_idNOT IN3b83789f3b37e290cb98111864e45a79"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=456a3693-ff06-44f2-bd5e-ceb48f38d3fc</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>markdown</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>markdown</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get OCR Output">bf83789f3b37e290cb98111864e45a6f</model>
+        <model_id>bf83789f3b37e290cb98111864e45a6f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_bf83789f3b37e290cb98111864e45a6f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-10 12:50:57</sys_created_on>
+        <sys_id>3b83789f3b37e290cb98111864e45a79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:50:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bf83789f3b37e290cb98111864e45a6f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>markdown</element>
+        <help/>
+        <hint/>
+        <label>markdown</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_bf83789f3b37e290cb98111864e45a6f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-10 12:50:58</sys_created_on>
+        <sys_id>3783789f3b37e290cb98111864e45a7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mistral AI" source="x_vuram_mistral_ai">d81a91513bfbae10cb98111864e45a5b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:50:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Mistral OCR">525ad5113bfbae10cb98111864e45a97</action>
+        <cid>3d2ab1ea-7cf9-44bf-bcc5-8301d30bb3d9</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Run OCR</label>
+        <order>4</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:18</sys_created_on>
+        <sys_id>f64131ad3b7b6250cb98111864e45afc</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-15 09:31:16</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f64131ad3b7b6250cb98111864e45afc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f64131ad3b7b6250cb98111864e45afc</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>3a4171ad3b7b6250cb98111864e45a24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 06:51:19</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f64131ad3b7b6250cb98111864e45afc</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>3e4171ad3b7b6250cb98111864e45a23</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:45:08</sys_updated_on>
+        <value/>
+        <variable display_value="Request Body[Text]">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f64131ad3b7b6250cb98111864e45afc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>724171ad3b7b6250cb98111864e45a25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 06:51:19</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f64131ad3b7b6250cb98111864e45afc</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>764171ad3b7b6250cb98111864e45a24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 06:51:19</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f64131ad3b7b6250cb98111864e45afc</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>7a4171ad3b7b6250cb98111864e45a23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 06:51:19</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f64131ad3b7b6250cb98111864e45afc</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 09:49:56</sys_created_on>
+        <sys_id>ab2a96293b73a250cb98111864e45a87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 09:49:56</sys_updated_on>
+        <value>4880e8fc3b0826d0f13f5fea26e45a17</value>
+        <variable display_value="Attachment">8bf0dc9687141300dd637d5e27cb0b3c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f64131ad3b7b6250cb98111864e45afc</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>b24171ad3b7b6250cb98111864e45a24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 06:51:19</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f64131ad3b7b6250cb98111864e45afc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>b64171ad3b7b6250cb98111864e45a23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 06:51:19</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f64131ad3b7b6250cb98111864e45afc</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>be4171ad3b7b6250cb98111864e45a24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 06:51:19</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f64131ad3b7b6250cb98111864e45afc</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:01:14</sys_created_on>
+        <sys_id>c0933d253bbb6250cb98111864e45ab5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:01:14</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f64131ad3b7b6250cb98111864e45afc</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>fa4171ad3b7b6250cb98111864e45a24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 06:51:19</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f64131ad3b7b6250cb98111864e45afc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>fe4171ad3b7b6250cb98111864e45a23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 06:51:19</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f64131ad3b7b6250cb98111864e45afc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>f64131ad3b7b6250cb98111864e45afc</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>724171ad3b7b6250cb98111864e45a23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 06:51:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachment_id</field>
+        <id>f64131ad3b7b6250cb98111864e45afc</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 09:49:56</sys_created_on>
+        <sys_id>2b2a96293b73a250cb98111864e45a87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 09:49:56</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>f64131ad3b7b6250cb98111864e45afc</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>be4171ad3b7b6250cb98111864e45a22</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:24:01</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].connection_url}}/v1/ocr</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>f64131ad3b7b6250cb98111864e45afc</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>3e4171ad3b7b6250cb98111864e45a21</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-15 09:31:16</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{&#13;
+  "model": "mistral-ocr-latest",&#13;
+  "id": "string",&#13;
+  "document": {&#13;
+    "type": "file",&#13;
+    "file_id": "{{step[28d5c5a7-b73d-4a70-8323-db732f6f5875].root.id}}"&#13;
+    &#13;
+  }&#13;
+}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>f64131ad3b7b6250cb98111864e45afc</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>fa4171ad3b7b6250cb98111864e45a22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 06:51:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>f64131ad3b7b6250cb98111864e45afc</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>764171ad3b7b6250cb98111864e45a22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 06:51:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>f64131ad3b7b6250cb98111864e45afc</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>364171ad3b7b6250cb98111864e45a23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 06:51:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>f64131ad3b7b6250cb98111864e45afc</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>3a4171ad3b7b6250cb98111864e45a22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 06:51:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"Authorization","value":"Bearer {{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].credential_value}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Content Type","value":"Application/json","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>f64131ad3b7b6250cb98111864e45afc</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>b64171ad3b7b6250cb98111864e45a21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 06:51:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>f64131ad3b7b6250cb98111864e45afc</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>fe4171ad3b7b6250cb98111864e45a21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 06:51:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>f64131ad3b7b6250cb98111864e45afc</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>b24171ad3b7b6250cb98111864e45a22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 06:51:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>f64131ad3b7b6250cb98111864e45afc</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:01:14</sys_created_on>
+        <sys_id>84933d253bbb6250cb98111864e45ab4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:01:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>f64131ad3b7b6250cb98111864e45afc</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>7a4171ad3b7b6250cb98111864e45a21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 06:51:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=f64131ad3b7b6250cb98111864e45afc"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=f64131ad3b7b6250cb98111864e45afc"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=f64131ad3b7b6250cb98111864e45afc"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f64131ad3b7b6250cb98111864e45afc"/>
+    <sys_hub_action_input action="delete_multiple" query="model=525ad5113bfbae10cb98111864e45a97^sys_idNOT IN3a9079c33b403e14cb98111864e45a68"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=GUID,uiTypeLabel=Sys ID (GUID),uiUniqueId=ba8d7654-ebec-4adc-abef-1705c2f1f844</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>attachment</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">GUID</internal_type>
+        <label>Attachment</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Mistral OCR">525ad5113bfbae10cb98111864e45a97</model>
+        <model_id>525ad5113bfbae10cb98111864e45a97</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_525ad5113bfbae10cb98111864e45a97</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>varunapriyan.k</sys_created_by>
+        <sys_created_on>2025-09-22 08:54:53</sys_created_on>
+        <sys_id>3a9079c33b403e14cb98111864e45a68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-09-22 08:54:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3a9079c33b403e14cb98111864e45a68"/>
+    <sys_hub_action_output action="delete_multiple" query="model=525ad5113bfbae10cb98111864e45a97^sys_idNOT IN2272b4db3b37e290cb98111864e45acd,724171ad3b7b6250cb98111864e45a42,c74171ad3b7b6250cb98111864e45a5c"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=343abbb7-0e7e-4f4d-9207-30f1d033614e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>markdown</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>markdown</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Mistral OCR">525ad5113bfbae10cb98111864e45a97</model>
+        <model_id>525ad5113bfbae10cb98111864e45a97</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_525ad5113bfbae10cb98111864e45a97</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-10 12:46:13</sys_created_on>
+        <sys_id>2272b4db3b37e290cb98111864e45acd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:51:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2272b4db3b37e290cb98111864e45acd"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2272b4db3b37e290cb98111864e45acd"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=6fe23d2a-b2bb-4d58-9ee8-18b6e2684fe3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Mistral OCR">525ad5113bfbae10cb98111864e45a97</model>
+        <model_id>525ad5113bfbae10cb98111864e45a97</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_525ad5113bfbae10cb98111864e45a97</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>724171ad3b7b6250cb98111864e45a42</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:46:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=724171ad3b7b6250cb98111864e45a42"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=724171ad3b7b6250cb98111864e45a42"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=ec6b2876-e442-4a2c-8be4-3f7668b0db94,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Mistral OCR">525ad5113bfbae10cb98111864e45a97</model>
+        <model_id>525ad5113bfbae10cb98111864e45a97</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_525ad5113bfbae10cb98111864e45a97</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>c74171ad3b7b6250cb98111864e45a5c</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-11-12 10:53:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c74171ad3b7b6250cb98111864e45a5c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c74171ad3b7b6250cb98111864e45a5c"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=525ad5113bfbae10cb98111864e45a97"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=525ad5113bfbae10cb98111864e45a97^sys_idNOT IN4b4171ad3b7b6250cb98111864e45a69"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Mistral OCR">525ad5113bfbae10cb98111864e45a97</action_type_id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>4b4171ad3b7b6250cb98111864e45a69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 06:51:19</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=4b4171ad3b7b6250cb98111864e45a69"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>attachment</element>
+        <help/>
+        <hint/>
+        <label>Attachment</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_525ad5113bfbae10cb98111864e45a97</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>varunapriyan.k</sys_created_by>
+        <sys_created_on>2025-09-22 08:54:53</sys_created_on>
+        <sys_id>fe9079c33b403e14cb98111864e45a6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mistral AI" source="x_vuram_mistral_ai">d81a91513bfbae10cb98111864e45a5b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-09-22 08:54:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_525ad5113bfbae10cb98111864e45a97"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_525ad5113bfbae10cb98111864e45a97</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>434171ad3b7b6250cb98111864e45a5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mistral AI" source="x_vuram_mistral_ai">d81a91513bfbae10cb98111864e45a5b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 06:51:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>markdown</element>
+        <help/>
+        <hint/>
+        <label>markdown</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_525ad5113bfbae10cb98111864e45a97</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-10 12:46:13</sys_created_on>
+        <sys_id>6a72b4db3b37e290cb98111864e45ad6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mistral AI" source="x_vuram_mistral_ai">d81a91513bfbae10cb98111864e45a5b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:46:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_525ad5113bfbae10cb98111864e45a97</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 06:51:19</sys_created_on>
+        <sys_id>8f4171ad3b7b6250cb98111864e45a62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mistral AI" source="x_vuram_mistral_ai">d81a91513bfbae10cb98111864e45a5b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 06:51:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_525ad5113bfbae10cb98111864e45a97"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=525ad5113bfbae10cb98111864e45a97^sys_idNOT IN8950ce6d3b3f6250cb98111864e45aea"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Mistral OCR">525ad5113bfbae10cb98111864e45a97</action_id>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"8950ce6d3b3f6250cb98111864e45aea","name":"plan","plan_signature":null}}</plan>
+        <snapshot>64a03dc33b403e14cb98111864e45a33</snapshot>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:57:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8950ce6d3b3f6250cb98111864e45aea</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-09-22 08:55:03</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Mistral OCR</description>
+        <flow_priority/>
+        <internal_name>mistral_ocr</internal_name>
+        <label_cache>[{"name":"{{action.base64}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"","base_type":"file_attachment","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"File Attachment","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"file_attachment","uiUniqueId":"0fd5b171-45c2-4d9d-a26d-2214da541675"}},{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ba8d7654-ebec-4adc-abef-1705c2f1f844"}},{"name":"{{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].credential_value}}","label":"step➛Get Connection➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].connection_url}}","label":"step➛Get Connection➛Connection URL","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"define_connection_inline"}},{"name":"{{step[9fbfb053-578e-437a-b8b7-e1aa3be2b6ca].response_body}}","label":"step➛Upload File➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[28d5c5a7-b73d-4a70-8323-db732f6f5875].root.id}}","label":"Get File Idstep➛➛root➛id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[3d2ab1ea-7cf9-44bf-bcc5-8301d30bb3d9].response_body}}","label":"step➛Run OCR➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[cab24553-9483-423f-86f9-e03de8bc6f17].markdown}}","label":"step➛Get OCR Output➛markdown","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"456a3693-ff06-44f2-bd5e-ceb48f38d3fc"}}]</label_cache>
+        <master>true</master>
+        <name>Mistral OCR</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Mistral OCR">525ad5113bfbae10cb98111864e45a97</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>84504e6d3b3f6250cb98111864e45ab0</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-09-22 08:54:58</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=84504e6d3b3f6250cb98111864e45ab0"/>
+    <sys_variable_value action="delete_multiple" query="document_key=84504e6d3b3f6250cb98111864e45ab0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>84504e6d3b3f6250cb98111864e45ab0</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>6c508e6d3b3f6250cb98111864e45af9</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-11-12 10:53:24</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"1cf572eb-c590-4a34-a138-40c1e56409e2\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <variable display_value="Action Status">2c508e6d3b3f6250cb98111864e45ac2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>84504e6d3b3f6250cb98111864e45ab0</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>a8508e6d3b3f6250cb98111864e45af9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:58</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">28508e6d3b3f6250cb98111864e45ac7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=84504e6d3b3f6250cb98111864e45ab0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>markdown</field>
+        <id>84504e6d3b3f6250cb98111864e45ab0</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-10 12:52:14</sys_created_on>
+        <sys_id>a2d3bcdf3b37e290cb98111864e45a7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:52:14</sys_updated_on>
+        <table>var__m_sys_hub_action_output_84504e6d3b3f6250cb98111864e45ab0</table>
+        <value>{{step[cab24553-9483-423f-86f9-e03de8bc6f17].markdown}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>84504e6d3b3f6250cb98111864e45ab0</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>28508e6d3b3f6250cb98111864e45af9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:58</sys_updated_on>
+        <table>var__m_sys_hub_action_output_84504e6d3b3f6250cb98111864e45ab0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>84504e6d3b3f6250cb98111864e45ab0</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>64508e6d3b3f6250cb98111864e45af9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:58</sys_updated_on>
+        <table>var__m_sys_hub_action_output_84504e6d3b3f6250cb98111864e45ab0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=84504e6d3b3f6250cb98111864e45ab0^sys_idNOT IN46206c433bb72290f13f5fea26e45a37,5ad3bcdf3b37e290cb98111864e45a29,5c508e6d3b3f6250cb98111864e45a26,b9206c433bb72290f13f5fea26e45a01,c0504e6d3b3f6250cb98111864e45ad8"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Mistral OCR">84504e6d3b3f6250cb98111864e45ab0</action>
+        <cid>28d5c5a7-b73d-4a70-8323-db732f6f5875</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Get File Id</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>46206c433bb72290f13f5fea26e45a37</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=46206c433bb72290f13f5fea26e45a37"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>46206c433bb72290f13f5fea26e45a37</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>c6206c433bb72290f13f5fea26e45a43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"id","children":[],"type":"string","jpath":"$.id","previewValue":"618b9ee3-23d0-4137-8495-1e956fdde865"}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_46206c433bb72290f13f5fea26e45a37^id=46206c433bb72290f13f5fea26e45a37"/>
+    <sys_element_mapping action="delete_multiple" query="id=46206c433bb72290f13f5fea26e45a37"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>46206c433bb72290f13f5fea26e45a37</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>82206c433bb72290f13f5fea26e45a43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[9fbfb053-578e-437a-b8b7-e1aa3be2b6ca].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>46206c433bb72290f13f5fea26e45a37</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>46206c433bb72290f13f5fea26e45a43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=46206c433bb72290f13f5fea26e45a37"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=46206c433bb72290f13f5fea26e45a37"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=46206c433bb72290f13f5fea26e45a37^sys_idNOT IN42206c433bb72290f13f5fea26e45a3b"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD86206c4395b72290c67c5fb81bc3b93a</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>d81a91513bfbae10cb98111864e45a5b</scope_name>
+        <serialized_content>{"FlowDesigner:FD86206c4395b72290c67c5fb81bc3b93a":{"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"f953caf4-93c5-408f-838d-686d638cfd62\"}"}},"FlowDesigner:FD86206c4395b72290c67c5fb81bc3b93a.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"root\",\"mandatory\":\"false\",\"uiUniqueId\":\"2a5c351f-a9d6-401e-bde9-e77e2833af3a\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD86206c4395b72290c67c5fb81bc3b93a\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4a206c433bb72290f13f5fea26e45a3a</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-11-12 10:53:23</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD86206c4395b72290c67c5fb81bc3b93a,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=2a5c351f-a9d6-401e-bde9-e77e2833af3a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get File Id">46206c433bb72290f13f5fea26e45a37</model>
+        <model_id>46206c433bb72290f13f5fea26e45a37</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_46206c433bb72290f13f5fea26e45a37</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>42206c433bb72290f13f5fea26e45a3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=46206c433bb72290f13f5fea26e45a37"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_46206c433bb72290f13f5fea26e45a37</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>46206c433bb72290f13f5fea26e45a3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mistral AI" source="x_vuram_mistral_ai">d81a91513bfbae10cb98111864e45a5b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Mistral OCR">84504e6d3b3f6250cb98111864e45ab0</action>
+        <cid>cab24553-9483-423f-86f9-e03de8bc6f17</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Get OCR Output</label>
+        <order>5</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-10 12:52:13</sys_created_on>
+        <sys_id>5ad3bcdf3b37e290cb98111864e45a29</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_updated_by>harini.ks</sys_updated_by>
+        <sys_updated_on>2025-09-15 09:50:27</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5ad3bcdf3b37e290cb98111864e45a29"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5ad3bcdf3b37e290cb98111864e45a29</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-10 12:52:13</sys_created_on>
+        <sys_id>9ed3bcdf3b37e290cb98111864e45a48</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>harini.ks</sys_updated_by>
+        <sys_updated_on>2025-09-15 09:50:27</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+var response= JSON.parse(inputs.responsebody);&#13;
+// var markdown = body.pages[0].markdown;&#13;
+&#13;
+outputs.markdown=response;&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5ad3bcdf3b37e290cb98111864e45a29</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-10 12:52:13</sys_created_on>
+        <sys_id>dad3bcdf3b37e290cb98111864e45a48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:52:13</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5ad3bcdf3b37e290cb98111864e45a29"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>5ad3bcdf3b37e290cb98111864e45a29</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-10 12:52:13</sys_created_on>
+        <sys_id>96d3bcdf3b37e290cb98111864e45a48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:52:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>responsebody</field>
+        <id>5ad3bcdf3b37e290cb98111864e45a29</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-10 12:52:13</sys_created_on>
+        <sys_id>d6d3bcdf3b37e290cb98111864e45a49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:52:13</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_5ad3bcdf3b37e290cb98111864e45a29</table>
+        <value>{{step[3d2ab1ea-7cf9-44bf-bcc5-8301d30bb3d9].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>5ad3bcdf3b37e290cb98111864e45a29</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-10 12:52:13</sys_created_on>
+        <sys_id>5ad3bcdf3b37e290cb98111864e45a48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:52:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_5ad3bcdf3b37e290cb98111864e45a29^id=5ad3bcdf3b37e290cb98111864e45a29"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=5ad3bcdf3b37e290cb98111864e45a29"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=5ad3bcdf3b37e290cb98111864e45a29"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=5ad3bcdf3b37e290cb98111864e45a29^sys_idNOT IN92d3bcdf3b37e290cb98111864e45a3a"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>responsebody</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>responsebody</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get OCR Output">5ad3bcdf3b37e290cb98111864e45a29</model>
+        <model_id>5ad3bcdf3b37e290cb98111864e45a29</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_5ad3bcdf3b37e290cb98111864e45a29</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-10 12:52:13</sys_created_on>
+        <sys_id>92d3bcdf3b37e290cb98111864e45a3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:52:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=5ad3bcdf3b37e290cb98111864e45a29^sys_idNOT IN9ad3bcdf3b37e290cb98111864e45a3e"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=456a3693-ff06-44f2-bd5e-ceb48f38d3fc</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>markdown</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>markdown</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get OCR Output">5ad3bcdf3b37e290cb98111864e45a29</model>
+        <model_id>5ad3bcdf3b37e290cb98111864e45a29</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_5ad3bcdf3b37e290cb98111864e45a29</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-10 12:52:13</sys_created_on>
+        <sys_id>9ad3bcdf3b37e290cb98111864e45a3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:52:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5ad3bcdf3b37e290cb98111864e45a29"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>markdown</element>
+        <help/>
+        <hint/>
+        <label>markdown</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_5ad3bcdf3b37e290cb98111864e45a29</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-10 12:52:13</sys_created_on>
+        <sys_id>5ed3bcdf3b37e290cb98111864e45a41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mistral AI" source="x_vuram_mistral_ai">d81a91513bfbae10cb98111864e45a5b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:52:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Mistral OCR">84504e6d3b3f6250cb98111864e45ab0</action>
+        <cid>3d2ab1ea-7cf9-44bf-bcc5-8301d30bb3d9</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Run OCR</label>
+        <order>4</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:57</sys_created_on>
+        <sys_id>5c508e6d3b3f6250cb98111864e45a26</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-15 09:31:35</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5c508e6d3b3f6250cb98111864e45a26"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c508e6d3b3f6250cb98111864e45a26</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>20508e6d3b3f6250cb98111864e45ab2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:58</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c508e6d3b3f6250cb98111864e45a26</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>24508e6d3b3f6250cb98111864e45ab1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:58</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c508e6d3b3f6250cb98111864e45a26</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>60508e6d3b3f6250cb98111864e45ab1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:58</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c508e6d3b3f6250cb98111864e45a26</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>6c508e6d3b3f6250cb98111864e45ab1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:58</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c508e6d3b3f6250cb98111864e45a26</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>a4508e6d3b3f6250cb98111864e45ab2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:58</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c508e6d3b3f6250cb98111864e45a26</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>a8508e6d3b3f6250cb98111864e45ab1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:58</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c508e6d3b3f6250cb98111864e45a26</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>ac508e6d3b3f6250cb98111864e45ab0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:58</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c508e6d3b3f6250cb98111864e45a26</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>e0508e6d3b3f6250cb98111864e45ab2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:58</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c508e6d3b3f6250cb98111864e45a26</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 09:50:09</sys_created_on>
+        <sys_id>e23a9a293b73a250cb98111864e45a79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 09:50:09</sys_updated_on>
+        <value>4880e8fc3b0826d0f13f5fea26e45a17</value>
+        <variable display_value="Attachment">8bf0dc9687141300dd637d5e27cb0b3c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c508e6d3b3f6250cb98111864e45a26</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>e4508e6d3b3f6250cb98111864e45ab1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:58</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5c508e6d3b3f6250cb98111864e45a26</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>e8508e6d3b3f6250cb98111864e45ab0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:58</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5c508e6d3b3f6250cb98111864e45a26"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>5c508e6d3b3f6250cb98111864e45a26</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>e0508e6d3b3f6250cb98111864e45ab0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachment_id</field>
+        <id>5c508e6d3b3f6250cb98111864e45a26</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 09:50:09</sys_created_on>
+        <sys_id>623a9a293b73a250cb98111864e45a79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 09:50:09</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>5c508e6d3b3f6250cb98111864e45a26</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>20508e6d3b3f6250cb98111864e45ab0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:43</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].connection_url}}/v1/ocr</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>5c508e6d3b3f6250cb98111864e45a26</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:57</sys_created_on>
+        <sys_id>ac508e6d3b3f6250cb98111864e45aae</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-15 09:31:35</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{&#13;
+  "model": "mistral-ocr-latest",&#13;
+  "id": "string",&#13;
+  "document": {&#13;
+    "type": "file",&#13;
+    "file_id": "{{step[28d5c5a7-b73d-4a70-8323-db732f6f5875].root.id}}"&#13;
+    &#13;
+  }&#13;
+}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>5c508e6d3b3f6250cb98111864e45a26</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>6c508e6d3b3f6250cb98111864e45aaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>5c508e6d3b3f6250cb98111864e45a26</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>e4508e6d3b3f6250cb98111864e45aaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>5c508e6d3b3f6250cb98111864e45a26</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>68508e6d3b3f6250cb98111864e45ab0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>5c508e6d3b3f6250cb98111864e45a26</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>a8508e6d3b3f6250cb98111864e45aaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"Authorization","value":"Bearer {{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].credential_value}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Content Type","value":"Application/json","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>5c508e6d3b3f6250cb98111864e45a26</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:57</sys_created_on>
+        <sys_id>28508e6d3b3f6250cb98111864e45aae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:57</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>5c508e6d3b3f6250cb98111864e45a26</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:57</sys_created_on>
+        <sys_id>60508e6d3b3f6250cb98111864e45aaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:57</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>5c508e6d3b3f6250cb98111864e45a26</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:57</sys_created_on>
+        <sys_id>24508e6d3b3f6250cb98111864e45aaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:57</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>5c508e6d3b3f6250cb98111864e45a26</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>a4508e6d3b3f6250cb98111864e45ab0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>5c508e6d3b3f6250cb98111864e45a26</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:57</sys_created_on>
+        <sys_id>e8508e6d3b3f6250cb98111864e45aae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:57</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=5c508e6d3b3f6250cb98111864e45a26"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=5c508e6d3b3f6250cb98111864e45a26"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=5c508e6d3b3f6250cb98111864e45a26"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5c508e6d3b3f6250cb98111864e45a26"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Mistral OCR">84504e6d3b3f6250cb98111864e45ab0</action>
+        <cid>9fbfb053-578e-437a-b8b7-e1aa3be2b6ca</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Upload File</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:41</sys_created_on>
+        <sys_id>b9206c433bb72290f13f5fea26e45a01</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b9206c433bb72290f13f5fea26e45a01"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b9206c433bb72290f13f5fea26e45a01</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>02206c433bb72290f13f5fea26e45a33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b9206c433bb72290f13f5fea26e45a01</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>06206c433bb72290f13f5fea26e45a32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b9206c433bb72290f13f5fea26e45a01</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>0e206c433bb72290f13f5fea26e45a33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b9206c433bb72290f13f5fea26e45a01</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>42206c433bb72290f13f5fea26e45a32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <value>multi-part</value>
+        <variable display_value="Request Type">bc79234a87d01300dd637d5e27cb0b24</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b9206c433bb72290f13f5fea26e45a01</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>4a206c433bb72290f13f5fea26e45a33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b9206c433bb72290f13f5fea26e45a01</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>4e206c433bb72290f13f5fea26e45a32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <value>purpose=ocr&amp;file=1b4d096a3bfbea50cb98111864e45a35</value>
+        <variable display_value="Form URL Encoded">3684ec4787d01300dd637d5e27cb0bcb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b9206c433bb72290f13f5fea26e45a01</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>86206c433bb72290f13f5fea26e45a33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b9206c433bb72290f13f5fea26e45a01</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>8a206c433bb72290f13f5fea26e45a32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b9206c433bb72290f13f5fea26e45a01</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>c2206c433bb72290f13f5fea26e45a33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b9206c433bb72290f13f5fea26e45a01</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>c6206c433bb72290f13f5fea26e45a32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b9206c433bb72290f13f5fea26e45a01</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>ce206c433bb72290f13f5fea26e45a33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b9206c433bb72290f13f5fea26e45a01"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>b9206c433bb72290f13f5fea26e45a01</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>4a206c433bb72290f13f5fea26e45a31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>b9206c433bb72290f13f5fea26e45a01</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>86206c433bb72290f13f5fea26e45a31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].connection_url}}/v1/files</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>b9206c433bb72290f13f5fea26e45a01</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>c2206c433bb72290f13f5fea26e45a31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>b9206c433bb72290f13f5fea26e45a01</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>8a206c433bb72290f13f5fea26e45a30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>b9206c433bb72290f13f5fea26e45a01</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>ce206c433bb72290f13f5fea26e45a31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>form_URL_encoded_map</field>
+        <id>b9206c433bb72290f13f5fea26e45a01</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>c6206c433bb72290f13f5fea26e45a30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>b9206c433bb72290f13f5fea26e45a01</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>02206c433bb72290f13f5fea26e45a31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"Authorization","value":"Bearer {{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].credential_value}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>b9206c433bb72290f13f5fea26e45a01</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>8e206c433bb72290f13f5fea26e45a2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>b9206c433bb72290f13f5fea26e45a01</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>42206c433bb72290f13f5fea26e45a30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>b9206c433bb72290f13f5fea26e45a01</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>06206c433bb72290f13f5fea26e45a30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>multipart_sources_string</field>
+        <id>b9206c433bb72290f13f5fea26e45a01</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>4e206c433bb72290f13f5fea26e45a30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>[{"name":"purpose","type":"application/json","order":0,"value":"ocr","itemType":"multi-part-data","part_type":"text","content_type":"application/json","set_content_type":"from_attachment","file_name":"","set_file_name":"from_attachment","showType":true,"label":"purpose"},{"name":"file","type":"application/json","order":1,"value":"{{action.attachment}}","itemType":"multi-part-data","part_type":"file","content_type":"multipart/form-data","set_content_type":"from_attachment","file_name":"","set_file_name":"from_attachment","showType":true,"label":"file"}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>b9206c433bb72290f13f5fea26e45a01</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>0e206c433bb72290f13f5fea26e45a31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>request_type</field>
+        <id>b9206c433bb72290f13f5fea26e45a01</id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>ca206c433bb72290f13f5fea26e45a2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=b9206c433bb72290f13f5fea26e45a01"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=b9206c433bb72290f13f5fea26e45a01"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=b9206c433bb72290f13f5fea26e45a01"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b9206c433bb72290f13f5fea26e45a01^sys_idNOT IN8e206c433bb72290f13f5fea26e45a2d"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>form_URL_encoded_map</input_name>
+        <instance>b9206c433bb72290f13f5fea26e45a01</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"form_URL_encoded_map":{"scriptActive":false}}</script>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-09 16:47:42</sys_created_on>
+        <sys_id>8e206c433bb72290f13f5fea26e45a2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:47:42</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Mistral OCR">84504e6d3b3f6250cb98111864e45ab0</action>
+        <cid>60085ac9-9e69-4037-8b5b-c28c9746b5fd</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Get Connection</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Get Connection Info">95eeb235e7011010493520c343f6a983</step_type>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:56</sys_created_on>
+        <sys_id>c0504e6d3b3f6250cb98111864e45ad8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-11-12 10:53:23</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c0504e6d3b3f6250cb98111864e45ad8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c0504e6d3b3f6250cb98111864e45ad8</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:56</sys_created_on>
+        <sys_id>80504e6d3b3f6250cb98111864e45adf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-11-12 10:53:23</sys_updated_on>
+        <value>fc10b0ab3b05b254f13f5fea26e45aee</value>
+        <variable display_value="Connection Alias">7f64d24be7011010493520c343f6a999</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c0504e6d3b3f6250cb98111864e45ad8</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:56</sys_created_on>
+        <sys_id>cc504e6d3b3f6250cb98111864e45ade</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:56</sys_updated_on>
+        <value>5fc50ef73b3c2290f13f5fea26e45ad7</value>
+        <variable display_value="Credential Alias">6bd65a8be7011010493520c343f6a909</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_95eeb235e7011010493520c343f6a983^id=c0504e6d3b3f6250cb98111864e45ad8"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=c0504e6d3b3f6250cb98111864e45ad8"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=c0504e6d3b3f6250cb98111864e45ad8"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=c0504e6d3b3f6250cb98111864e45ad8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c0504e6d3b3f6250cb98111864e45ad8"/>
+    <sys_hub_action_input action="delete_multiple" query="model=84504e6d3b3f6250cb98111864e45ab0^sys_idNOT IN80a0f9c33b403e14cb98111864e45a52"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=GUID,uiTypeLabel=Sys ID (GUID),uiUniqueId=ba8d7654-ebec-4adc-abef-1705c2f1f844</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>attachment</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">GUID</internal_type>
+        <label>Attachment</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Mistral OCR">84504e6d3b3f6250cb98111864e45ab0</model>
+        <model_id>84504e6d3b3f6250cb98111864e45ab0</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_84504e6d3b3f6250cb98111864e45ab0</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>varunapriyan.k</sys_created_by>
+        <sys_created_on>2025-09-22 08:54:58</sys_created_on>
+        <sys_id>80a0f9c33b403e14cb98111864e45a52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-09-22 08:54:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=80a0f9c33b403e14cb98111864e45a52"/>
+    <sys_hub_action_output action="delete_multiple" query="model=84504e6d3b3f6250cb98111864e45ab0^sys_idNOT IN26d3bcdf3b37e290cb98111864e45a6b,28508e6d3b3f6250cb98111864e45ac7,2c508e6d3b3f6250cb98111864e45ac2"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=343abbb7-0e7e-4f4d-9207-30f1d033614e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>markdown</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>markdown</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Mistral OCR">84504e6d3b3f6250cb98111864e45ab0</model>
+        <model_id>84504e6d3b3f6250cb98111864e45ab0</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_84504e6d3b3f6250cb98111864e45ab0</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-10 12:52:14</sys_created_on>
+        <sys_id>26d3bcdf3b37e290cb98111864e45a6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:52:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=26d3bcdf3b37e290cb98111864e45a6b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=26d3bcdf3b37e290cb98111864e45a6b"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=ec6b2876-e442-4a2c-8be4-3f7668b0db94,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Mistral OCR">84504e6d3b3f6250cb98111864e45ab0</model>
+        <model_id>84504e6d3b3f6250cb98111864e45ab0</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_84504e6d3b3f6250cb98111864e45ab0</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>28508e6d3b3f6250cb98111864e45ac7</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-11-12 10:53:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=28508e6d3b3f6250cb98111864e45ac7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=28508e6d3b3f6250cb98111864e45ac7"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=6fe23d2a-b2bb-4d58-9ee8-18b6e2684fe3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Mistral OCR">84504e6d3b3f6250cb98111864e45ab0</model>
+        <model_id>84504e6d3b3f6250cb98111864e45ab0</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_84504e6d3b3f6250cb98111864e45ab0</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>2c508e6d3b3f6250cb98111864e45ac2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:52:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2c508e6d3b3f6250cb98111864e45ac2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2c508e6d3b3f6250cb98111864e45ac2"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=84504e6d3b3f6250cb98111864e45ab0"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=84504e6d3b3f6250cb98111864e45ab0^sys_idNOT IN64508e6d3b3f6250cb98111864e45afb"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Mistral OCR">84504e6d3b3f6250cb98111864e45ab0</action_type_id>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>64508e6d3b3f6250cb98111864e45afb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:58</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=64508e6d3b3f6250cb98111864e45afb"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>attachment</element>
+        <help/>
+        <hint/>
+        <label>Attachment</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_84504e6d3b3f6250cb98111864e45ab0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>varunapriyan.k</sys_created_by>
+        <sys_created_on>2025-09-22 08:54:58</sys_created_on>
+        <sys_id>cca0f9c33b403e14cb98111864e45a55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mistral AI" source="x_vuram_mistral_ai">d81a91513bfbae10cb98111864e45a5b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-09-22 08:54:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_84504e6d3b3f6250cb98111864e45ab0"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>markdown</element>
+        <help/>
+        <hint/>
+        <label>markdown</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_84504e6d3b3f6250cb98111864e45ab0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-10 12:52:14</sys_created_on>
+        <sys_id>6ad3bcdf3b37e290cb98111864e45a6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mistral AI" source="x_vuram_mistral_ai">d81a91513bfbae10cb98111864e45a5b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:52:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_84504e6d3b3f6250cb98111864e45ab0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>e8508e6d3b3f6250cb98111864e45ac6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mistral AI" source="x_vuram_mistral_ai">d81a91513bfbae10cb98111864e45a5b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_84504e6d3b3f6250cb98111864e45ab0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>raj.selvam</sys_created_by>
+        <sys_created_on>2025-09-05 07:56:58</sys_created_on>
+        <sys_id>ec508e6d3b3f6250cb98111864e45af1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mistral AI" source="x_vuram_mistral_ai">d81a91513bfbae10cb98111864e45a5b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>raj.selvam</sys_updated_by>
+        <sys_updated_on>2025-09-05 07:56:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_84504e6d3b3f6250cb98111864e45ab0"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>525ad5113bfbae10cb98111864e45a97</sys_id>
+        <latest_snapshot>84504e6d3b3f6250cb98111864e45ab0</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch1-hotfix2-10-11-2025_10-11-2025_2320.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

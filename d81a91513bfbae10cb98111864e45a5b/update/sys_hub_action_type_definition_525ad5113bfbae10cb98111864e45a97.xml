@@ -1913,17 +1913,17 @@ outputs.markdown=response;&#13;
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Mistral OCR">525ad5113bfbae10cb98111864e45a97</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"8950ce6d3b3f6250cb98111864e45aea","name":"plan","plan_signature":null}}</plan>
-        <snapshot>64a03dc33b403e14cb98111864e45a33</snapshot>
+        <snapshot>44d474ab3b45b254f13f5fea26e45a66</snapshot>
         <sys_created_by>raj.selvam</sys_created_by>
         <sys_created_on>2025-09-05 07:57:00</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8950ce6d3b3f6250cb98111864e45aea</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>varunapriyan.k</sys_updated_by>
-        <sys_updated_on>2025-09-22 08:55:03</sys_updated_on>
+        <sys_updated_on>2025-11-12 10:53:26</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>

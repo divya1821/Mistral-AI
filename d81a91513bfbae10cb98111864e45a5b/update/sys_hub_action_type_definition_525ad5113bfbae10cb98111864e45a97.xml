@@ -12,11 +12,11 @@
         <category/>
         <copied_from/>
         <copied_from_name/>
-        <description>Mistral OCR</description>
+        <description>Advanced optical character recognition that converts documents into structured data.</description>
         <flow_priority/>
         <ih_action>true</ih_action>
         <internal_name>mistral_ocr</internal_name>
-        <label_cache>[{"name":"{{action.base64}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"","base_type":"file_attachment","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"File Attachment","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"file_attachment","uiUniqueId":"0fd5b171-45c2-4d9d-a26d-2214da541675"}},{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ba8d7654-ebec-4adc-abef-1705c2f1f844"}},{"name":"{{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].credential_value}}","label":"step➛Get Connection➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].connection_url}}","label":"step➛Get Connection➛Connection URL","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"define_connection_inline"}},{"name":"{{step[9fbfb053-578e-437a-b8b7-e1aa3be2b6ca].response_body}}","label":"step➛Upload File➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[28d5c5a7-b73d-4a70-8323-db732f6f5875].root.id}}","label":"Get File Idstep➛➛root➛id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[3d2ab1ea-7cf9-44bf-bcc5-8301d30bb3d9].response_body}}","label":"step➛Run OCR➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[cab24553-9483-423f-86f9-e03de8bc6f17].markdown}}","label":"step➛Get OCR Output➛markdown","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"456a3693-ff06-44f2-bd5e-ceb48f38d3fc"}}]</label_cache>
+        <label_cache>[{"name":"{{action.base64}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"","base_type":"file_attachment","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"File Attachment","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"file_attachment","uiUniqueId":"0fd5b171-45c2-4d9d-a26d-2214da541675"}},{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ba8d7654-ebec-4adc-abef-1705c2f1f844"}},{"name":"{{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].credential_value}}","label":"step➛Get Connection➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].connection_url}}","label":"step➛Get Connection➛Connection URL","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"define_connection_inline"}},{"name":"{{step[9fbfb053-578e-437a-b8b7-e1aa3be2b6ca].response_body}}","label":"step➛Upload File➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[28d5c5a7-b73d-4a70-8323-db732f6f5875].root.id}}","label":"Get File Idstep➛➛root➛id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[3d2ab1ea-7cf9-44bf-bcc5-8301d30bb3d9].response_body}}","label":"step➛Run OCR➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[cab24553-9483-423f-86f9-e03de8bc6f17].markdown}}","label":"step➛Get OCR Output➛markdown","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"456a3693-ff06-44f2-bd5e-ceb48f38d3fc"}},{"name":"{{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].__step_status__.code}}","label":"step➛Get Connection➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].__step_status__.message}}","label":"step➛Get Connection➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[9fbfb053-578e-437a-b8b7-e1aa3be2b6ca].__step_status__.code}}","label":"step➛Upload File➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[9fbfb053-578e-437a-b8b7-e1aa3be2b6ca].__step_status__.message}}","label":"step➛Upload File➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[28d5c5a7-b73d-4a70-8323-db732f6f5875].__step_status__.code}}","label":"step➛Get File Id➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[28d5c5a7-b73d-4a70-8323-db732f6f5875].__step_status__.message}}","label":"step➛Get File Id➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[3d2ab1ea-7cf9-44bf-bcc5-8301d30bb3d9].__step_status__.code}}","label":"step➛Run OCR➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cab24553-9483-423f-86f9-e03de8bc6f17].__step_status__.message}}","label":"step➛Get OCR Output➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[3d2ab1ea-7cf9-44bf-bcc5-8301d30bb3d9].__step_status__.message}}","label":"step➛Run OCR➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cab24553-9483-423f-86f9-e03de8bc6f17].__step_status__.code}}","label":"step➛Get OCR Output➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master_snapshot>84504e6d3b3f6250cb98111864e45ab0</master_snapshot>
         <master_snapshot_digest/>
         <name>Mistral OCR</name>
@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>525ad5113bfbae10cb98111864e45a97</sys_id>
-        <sys_mod_count>104</sys_mod_count>
+        <sys_mod_count>111</sys_mod_count>
         <sys_name>Mistral OCR</sys_name>
         <sys_overrides/>
         <sys_package display_value="Mistral AI" source="x_vuram_mistral_ai">d81a91513bfbae10cb98111864e45a5b</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_525ad5113bfbae10cb98111864e45a97</sys_update_name>
         <sys_updated_by>varunapriyan.k</sys_updated_by>
-        <sys_updated_on>2025-11-12 10:53:24</sys_updated_on>
+        <sys_updated_on>2025-12-04 11:23:34</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -53,10 +53,10 @@
         <sys_created_by>raj.selvam</sys_created_by>
         <sys_created_on>2025-09-05 06:51:19</sys_created_on>
         <sys_id>434171ad3b7b6250cb98111864e45a68</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>varunapriyan.k</sys_updated_by>
-        <sys_updated_on>2025-11-12 10:53:20</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"1cf572eb-c590-4a34-a138-40c1e56409e2\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <sys_updated_on>2025-12-04 11:18:45</sys_updated_on>
+        <value>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"1cf572eb-c590-4a34-a138-40c1e56409e2\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
         <variable display_value="Action Status">724171ad3b7b6250cb98111864e45a42</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -689,7 +689,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>face984f3b772290f13f5fea26e45a4b</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -697,7 +697,7 @@
         <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>varunapriyan.k</sys_updated_by>
-        <sys_updated_on>2025-11-12 10:53:19</sys_updated_on>
+        <sys_updated_on>2025-12-04 11:23:29</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -1781,14 +1781,14 @@ outputs.markdown=response;&#13;
         <sys_created_by>raj.selvam</sys_created_by>
         <sys_created_on>2025-09-05 06:51:19</sys_created_on>
         <sys_id>c74171ad3b7b6250cb98111864e45a5c</sys_id>
-        <sys_mod_count>101</sys_mod_count>
+        <sys_mod_count>107</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>varunapriyan.k</sys_updated_by>
-        <sys_updated_on>2025-11-12 10:53:20</sys_updated_on>
+        <sys_updated_on>2025-12-04 11:23:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1814,7 +1814,77 @@ outputs.markdown=response;&#13;
         <sys_updated_by>raj.selvam</sys_updated_by>
         <sys_updated_on>2025-09-05 06:51:19</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=4b4171ad3b7b6250cb98111864e45a69"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=4b4171ad3b7b6250cb98111864e45a69^sys_idNOT IN19ae8eaa3be572d0f13f5fea26e45a1c,55ae8eaa3be572d0f13f5fea26e45a1c,91ae8eaa3be572d0f13f5fea26e45a1c,d9ae8eaa3be572d0f13f5fea26e45a1b,d9ae8eaa3be572d0f13f5fea26e45a1c"/>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2025-09-04 23:51:19">4b4171ad3b7b6250cb98111864e45a69</action_status_metadata_id>
+        <condition>{{step[3d2ab1ea-7cf9-44bf-bcc5-8301d30bb3d9].__step_status__.code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Run OCR Fails</label>
+        <order>4</order>
+        <status>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"1"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[3d2ab1ea-7cf9-44bf-bcc5-8301d30bb3d9].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"1cf572eb-c590-4a34-a138-40c1e56409e2\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</status>
+        <sys_created_by>varunapriyan.k</sys_created_by>
+        <sys_created_on>2025-12-04 11:23:22</sys_created_on>
+        <sys_id>19ae8eaa3be572d0f13f5fea26e45a1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-12-04 11:23:22</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2025-09-04 23:51:19">4b4171ad3b7b6250cb98111864e45a69</action_status_metadata_id>
+        <condition>{{step[28d5c5a7-b73d-4a70-8323-db732f6f5875].__step_status__.code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Get File ID Fails</label>
+        <order>3</order>
+        <status>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"1"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[28d5c5a7-b73d-4a70-8323-db732f6f5875].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"1cf572eb-c590-4a34-a138-40c1e56409e2\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</status>
+        <sys_created_by>varunapriyan.k</sys_created_by>
+        <sys_created_on>2025-12-04 11:23:22</sys_created_on>
+        <sys_id>55ae8eaa3be572d0f13f5fea26e45a1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-12-04 11:23:22</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2025-09-04 23:51:19">4b4171ad3b7b6250cb98111864e45a69</action_status_metadata_id>
+        <condition>{{step[9fbfb053-578e-437a-b8b7-e1aa3be2b6ca].__step_status__.code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Upload File Fails</label>
+        <order>2</order>
+        <status>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"1"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[9fbfb053-578e-437a-b8b7-e1aa3be2b6ca].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"1cf572eb-c590-4a34-a138-40c1e56409e2\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</status>
+        <sys_created_by>varunapriyan.k</sys_created_by>
+        <sys_created_on>2025-12-04 11:23:22</sys_created_on>
+        <sys_id>91ae8eaa3be572d0f13f5fea26e45a1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-12-04 11:23:22</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2025-09-04 23:51:19">4b4171ad3b7b6250cb98111864e45a69</action_status_metadata_id>
+        <condition>{{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].__step_status__.code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Get Connection Fails</label>
+        <order>1</order>
+        <status>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"1"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"1cf572eb-c590-4a34-a138-40c1e56409e2\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</status>
+        <sys_created_by>varunapriyan.k</sys_created_by>
+        <sys_created_on>2025-12-04 11:23:22</sys_created_on>
+        <sys_id>d9ae8eaa3be572d0f13f5fea26e45a1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-12-04 11:23:22</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2025-09-04 23:51:19">4b4171ad3b7b6250cb98111864e45a69</action_status_metadata_id>
+        <condition>{{step[cab24553-9483-423f-86f9-e03de8bc6f17].__step_status__.code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Get OCR Output</label>
+        <order>5</order>
+        <status>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"1"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[cab24553-9483-423f-86f9-e03de8bc6f17].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"1cf572eb-c590-4a34-a138-40c1e56409e2\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</status>
+        <sys_created_by>varunapriyan.k</sys_created_by>
+        <sys_created_on>2025-12-04 11:23:22</sys_created_on>
+        <sys_id>d9ae8eaa3be572d0f13f5fea26e45a1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-12-04 11:23:22</sys_updated_on>
+    </sys_hub_status_condition>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>attachment</element>
         <help/>
@@ -1913,17 +1983,17 @@ outputs.markdown=response;&#13;
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Mistral OCR">525ad5113bfbae10cb98111864e45a97</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"8950ce6d3b3f6250cb98111864e45aea","name":"plan","plan_signature":null}}</plan>
-        <snapshot>44d474ab3b45b254f13f5fea26e45a66</snapshot>
+        <snapshot>24bec2ea3be572d0f13f5fea26e45ac6</snapshot>
         <sys_created_by>raj.selvam</sys_created_by>
         <sys_created_on>2025-09-05 07:57:00</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8950ce6d3b3f6250cb98111864e45aea</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>varunapriyan.k</sys_updated_by>
-        <sys_updated_on>2025-11-12 10:53:26</sys_updated_on>
+        <sys_updated_on>2025-12-04 11:23:36</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1937,10 +2007,10 @@ outputs.markdown=response;&#13;
         <category/>
         <copied_from/>
         <copied_from_name/>
-        <description>Mistral OCR</description>
+        <description>Advanced optical character recognition that converts documents into structured data.</description>
         <flow_priority/>
         <internal_name>mistral_ocr</internal_name>
-        <label_cache>[{"name":"{{action.base64}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"","base_type":"file_attachment","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"File Attachment","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"file_attachment","uiUniqueId":"0fd5b171-45c2-4d9d-a26d-2214da541675"}},{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ba8d7654-ebec-4adc-abef-1705c2f1f844"}},{"name":"{{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].credential_value}}","label":"step➛Get Connection➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].connection_url}}","label":"step➛Get Connection➛Connection URL","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"define_connection_inline"}},{"name":"{{step[9fbfb053-578e-437a-b8b7-e1aa3be2b6ca].response_body}}","label":"step➛Upload File➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[28d5c5a7-b73d-4a70-8323-db732f6f5875].root.id}}","label":"Get File Idstep➛➛root➛id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[3d2ab1ea-7cf9-44bf-bcc5-8301d30bb3d9].response_body}}","label":"step➛Run OCR➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[cab24553-9483-423f-86f9-e03de8bc6f17].markdown}}","label":"step➛Get OCR Output➛markdown","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"456a3693-ff06-44f2-bd5e-ceb48f38d3fc"}}]</label_cache>
+        <label_cache>[{"name":"{{action.base64}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"","base_type":"file_attachment","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"File Attachment","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"file_attachment","uiUniqueId":"0fd5b171-45c2-4d9d-a26d-2214da541675"}},{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"ba8d7654-ebec-4adc-abef-1705c2f1f844"}},{"name":"{{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].credential_value}}","label":"step➛Get Connection➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].connection_url}}","label":"step➛Get Connection➛Connection URL","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"define_connection_inline"}},{"name":"{{step[9fbfb053-578e-437a-b8b7-e1aa3be2b6ca].response_body}}","label":"step➛Upload File➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[28d5c5a7-b73d-4a70-8323-db732f6f5875].root.id}}","label":"Get File Idstep➛➛root➛id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[3d2ab1ea-7cf9-44bf-bcc5-8301d30bb3d9].response_body}}","label":"step➛Run OCR➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[cab24553-9483-423f-86f9-e03de8bc6f17].markdown}}","label":"step➛Get OCR Output➛markdown","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"456a3693-ff06-44f2-bd5e-ceb48f38d3fc"}},{"name":"{{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].__step_status__.code}}","label":"step➛Get Connection➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].__step_status__.message}}","label":"step➛Get Connection➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[9fbfb053-578e-437a-b8b7-e1aa3be2b6ca].__step_status__.code}}","label":"step➛Upload File➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[9fbfb053-578e-437a-b8b7-e1aa3be2b6ca].__step_status__.message}}","label":"step➛Upload File➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[28d5c5a7-b73d-4a70-8323-db732f6f5875].__step_status__.code}}","label":"step➛Get File Id➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[28d5c5a7-b73d-4a70-8323-db732f6f5875].__step_status__.message}}","label":"step➛Get File Id➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[3d2ab1ea-7cf9-44bf-bcc5-8301d30bb3d9].__step_status__.code}}","label":"step➛Run OCR➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cab24553-9483-423f-86f9-e03de8bc6f17].__step_status__.message}}","label":"step➛Get OCR Output➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[3d2ab1ea-7cf9-44bf-bcc5-8301d30bb3d9].__step_status__.message}}","label":"step➛Run OCR➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[cab24553-9483-423f-86f9-e03de8bc6f17].__step_status__.code}}","label":"step➛Get OCR Output➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master>true</master>
         <name>Mistral OCR</name>
         <natlang/>
@@ -1953,7 +2023,7 @@ outputs.markdown=response;&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>84504e6d3b3f6250cb98111864e45ab0</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1961,7 +2031,7 @@ outputs.markdown=response;&#13;
         <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>varunapriyan.k</sys_updated_by>
-        <sys_updated_on>2025-09-22 08:54:58</sys_updated_on>
+        <sys_updated_on>2025-12-04 11:23:32</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1975,10 +2045,10 @@ outputs.markdown=response;&#13;
         <sys_created_by>raj.selvam</sys_created_by>
         <sys_created_on>2025-09-05 07:56:58</sys_created_on>
         <sys_id>6c508e6d3b3f6250cb98111864e45af9</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>varunapriyan.k</sys_updated_by>
-        <sys_updated_on>2025-11-12 10:53:24</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"1cf572eb-c590-4a34-a138-40c1e56409e2\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <sys_updated_on>2025-12-04 11:23:34</sys_updated_on>
+        <value>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"1cf572eb-c590-4a34-a138-40c1e56409e2\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
         <variable display_value="Action Status">2c508e6d3b3f6250cb98111864e45ac2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2111,7 +2181,7 @@ outputs.markdown=response;&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4a206c433bb72290f13f5fea26e45a3a</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2119,7 +2189,7 @@ outputs.markdown=response;&#13;
         <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>varunapriyan.k</sys_updated_by>
-        <sys_updated_on>2025-11-12 10:53:23</sys_updated_on>
+        <sys_updated_on>2025-12-04 11:23:33</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -3508,14 +3578,14 @@ outputs.markdown=response;&#13;
         <sys_created_by>raj.selvam</sys_created_by>
         <sys_created_on>2025-09-05 07:56:58</sys_created_on>
         <sys_id>28508e6d3b3f6250cb98111864e45ac7</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Mistral AI">d81a91513bfbae10cb98111864e45a5b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>varunapriyan.k</sys_updated_by>
-        <sys_updated_on>2025-11-12 10:53:24</sys_updated_on>
+        <sys_updated_on>2025-12-04 11:23:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3628,7 +3698,77 @@ outputs.markdown=response;&#13;
         <sys_updated_by>raj.selvam</sys_updated_by>
         <sys_updated_on>2025-09-05 07:56:58</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=64508e6d3b3f6250cb98111864e45afb"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=64508e6d3b3f6250cb98111864e45afb^sys_idNOT IN24bec2ea3be572d0f13f5fea26e45ac5,28bec2ea3be572d0f13f5fea26e45ac5,2cbec2ea3be572d0f13f5fea26e45ac5,a4bec2ea3be572d0f13f5fea26e45ac5,a8bec2ea3be572d0f13f5fea26e45ac5"/>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2025-09-05 00:56:58">64508e6d3b3f6250cb98111864e45afb</action_status_metadata_id>
+        <condition>{{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].__step_status__.code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Get Connection Fails</label>
+        <order>1</order>
+        <status>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"1"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[60085ac9-9e69-4037-8b5b-c28c9746b5fd].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"1cf572eb-c590-4a34-a138-40c1e56409e2\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</status>
+        <sys_created_by>varunapriyan.k</sys_created_by>
+        <sys_created_on>2025-12-04 11:23:34</sys_created_on>
+        <sys_id>24bec2ea3be572d0f13f5fea26e45ac5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-12-04 11:23:34</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2025-09-05 00:56:58">64508e6d3b3f6250cb98111864e45afb</action_status_metadata_id>
+        <condition>{{step[28d5c5a7-b73d-4a70-8323-db732f6f5875].__step_status__.code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Get File ID Fails</label>
+        <order>3</order>
+        <status>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"1"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[28d5c5a7-b73d-4a70-8323-db732f6f5875].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"1cf572eb-c590-4a34-a138-40c1e56409e2\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</status>
+        <sys_created_by>varunapriyan.k</sys_created_by>
+        <sys_created_on>2025-12-04 11:23:34</sys_created_on>
+        <sys_id>28bec2ea3be572d0f13f5fea26e45ac5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-12-04 11:23:34</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2025-09-05 00:56:58">64508e6d3b3f6250cb98111864e45afb</action_status_metadata_id>
+        <condition>{{step[cab24553-9483-423f-86f9-e03de8bc6f17].__step_status__.code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Get OCR Output</label>
+        <order>5</order>
+        <status>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"1"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[cab24553-9483-423f-86f9-e03de8bc6f17].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"1cf572eb-c590-4a34-a138-40c1e56409e2\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</status>
+        <sys_created_by>varunapriyan.k</sys_created_by>
+        <sys_created_on>2025-12-04 11:23:34</sys_created_on>
+        <sys_id>2cbec2ea3be572d0f13f5fea26e45ac5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-12-04 11:23:34</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2025-09-05 00:56:58">64508e6d3b3f6250cb98111864e45afb</action_status_metadata_id>
+        <condition>{{step[9fbfb053-578e-437a-b8b7-e1aa3be2b6ca].__step_status__.code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Upload File Fails</label>
+        <order>2</order>
+        <status>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"1"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[9fbfb053-578e-437a-b8b7-e1aa3be2b6ca].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"1cf572eb-c590-4a34-a138-40c1e56409e2\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</status>
+        <sys_created_by>varunapriyan.k</sys_created_by>
+        <sys_created_on>2025-12-04 11:23:34</sys_created_on>
+        <sys_id>a4bec2ea3be572d0f13f5fea26e45ac5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-12-04 11:23:34</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2025-09-05 00:56:58">64508e6d3b3f6250cb98111864e45afb</action_status_metadata_id>
+        <condition>{{step[3d2ab1ea-7cf9-44bf-bcc5-8301d30bb3d9].__step_status__.code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Run OCR Fails</label>
+        <order>4</order>
+        <status>{"version":"1.0","serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"1"}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[3d2ab1ea-7cf9-44bf-bcc5-8301d30bb3d9].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"1cf572eb-c590-4a34-a138-40c1e56409e2\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</status>
+        <sys_created_by>varunapriyan.k</sys_created_by>
+        <sys_created_on>2025-12-04 11:23:34</sys_created_on>
+        <sys_id>a8bec2ea3be572d0f13f5fea26e45ac5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>varunapriyan.k</sys_updated_by>
+        <sys_updated_on>2025-12-04 11:23:34</sys_updated_on>
+    </sys_hub_status_condition>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>attachment</element>
         <help/>
